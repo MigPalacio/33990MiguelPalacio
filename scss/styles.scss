@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import "sections";
+@import "grids";
+@import "fonts";
+@import "footer";
+@import "productos";
+@import "contacto";
+@import "nosotros";
+
+//variables
+$color1: white;
+$color2: black;
+$color3: gray;
+
+
+body {
+    background-color: $color1;
+}
+.tituloPrincipal {
+    background-color: $color2;
+    color: $color1;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 1rem;
+}
+.nav-link active, .nav-link {
+    background-color: gray;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
